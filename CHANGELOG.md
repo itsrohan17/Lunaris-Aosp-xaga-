@@ -1,10 +1,79 @@
-# 🚀 Lunaris AOSP v3.9 - xaga
+# 🚀 Lunaris AOSP v3.10 - xaga
+
+📅 **May 6, 2026**
+
+---
+
+## ✨ Highlights
+
+* 🔄 **Dynamic Bar Refinements:** Redesigned the lockscreen extended media panel, aligned seekbar timestamps inline with the progress bar, and significantly improved the extended media blur visuals.
+* 🎮 **Gaming Enhancements:** Switched to the Axion GameSpace UI and introduced a new toggle for auto-detecting apps within GameSpace.
+* 🎨 **Clock & Emoji Customizations:** Brought in 14 new clock designs (including the Neumatic clock style) and added Swift and Facebook system emoji styles.
+
+---
+
+## ⚡ Improvements
+
+* Reduced app-to-home animation duration for a snappier launcher experience.
+* Reduced redundant `applyBlur` calls, improving rendering efficiency.
+* Refined lockscreen charging info logic.
+* Tuned various clock layouts for better visual alignment.
+* Optimized the resolver lookup tile background custom color scheme.
+* Sent load-up hint on finger down for faster and more responsive fingerprint unlock.
+
+---
+
+## ➕ Added & Features
+
+* 🔦 **Added working torch intensity control.**
+* Introduced the QS panel media & slider widget.
+* Added a launcher swipe-up gesture for freeform mode.
+* Added a brief AOD timer.
+* Added system sandbox support.
+
+### 🎨 Customization
+
+* **Clocks:** Added the Neumatic clock style and 13 additional random clock styles.
+* **Media & QS:** Allowed changing the QS media player position and added animation styles for QS tile toggles.
+* **Lockscreen:** **Added a CPU info overlay for lockscreen widgets**, added an option to toggle lockscreen wallpaper tint visibility, implemented a tap wake/sleep animation, and used accent ripple for lockscreen widget click actions.
+* **Visuals:** Added Swift and Facebook emoji styles, increased the max blur limit, and made compose volume follow the volume dialog haptic switch.
+
+---
+
+## 🔄 System Changes
+
+* Switched fully to the Axion GameSpace UI.
+* Changed the SmartPixel implementation.
+* Gated the display engine category on a persist prop.
+
+---
+
+## 🗑️ Removed
+
+* ❌ Removed certain dynamic bar changes (like notification and cust).
+* ❌ Dropped MSDL feedback from fingerprint authentication.
+
+---
+
+## 🐞 Fixes
+
+* 🐛 Fixed the pulse effect showing above the UDFPS icon.
+* 🐛 Fixed Depth wallpaper showing above the extended dynamic bar panel.
+* 🐛 Fixed the accent transparent status bar chip.
+* 🐛 Fixed custom clock scale clipping.
+
+---
+---
+
+# 📜 Previous Releases
+
+## 🚀 Lunaris AOSP v3.9 - xaga
 
 📅 **April 21, 2026**
 
 ---
 
-## ✨ Highlights
+### ✨ Highlights
 
 * 🔄 **Dynamic Bar Overhaul:** Switched to Dynamic Bar (dropping the ongoing chip) with redesigned media pills, improved lockscreen UI, and refined padding/sizing.
 * 🎨 **Massive Customization Drop:** Brought back Gradient and Classic A11 QS styles, introduced Depth Wallpapers, Edge Light glow, and 21 new clock styles.
@@ -12,7 +81,7 @@
 
 ---
 
-## ⚡ Improvements
+### ⚡ Improvements
 
 * Improved freeform app scrolling and device idle state detection (IdleManager).
 * Improved ongoing chip miniplayer popup animation and OmniJaws front end.
@@ -25,7 +94,7 @@
 
 ---
 
-## ➕ Added & Features
+### ➕ Added & Features
 
 * 🎵 Lockscreen "Now Playing" popup dialog.
 * 🔔 Essential Notifications Lite and allowed bubble notification apps.
@@ -36,7 +105,7 @@
 * 📞 Separated active call card from the dynamic island notification.
 * ⚙️ System option to ignore Factory Reset Protection (Disabled FRP).
 
-### 🎨 Customization
+#### 🎨 Customization
 
 * **Clocks:** 21 new clock styles, custom clock AOD transition animations, new custom clock selection UI, Lockscreen OOS clock style, and OOS-like QuickSpace style.
 * **QS & Status Bar:** Brought back Gradient style and classic A11-like QS panel style. Added alternate shade option for notification backgrounds, option to use themed icons in QS, and legacy QS notification icon styles.
@@ -47,7 +116,7 @@
 
 ---
 
-## 🔄 System Changes
+### 🔄 System Changes
 
 * Switched to Dynamic Bar entirely (dropped ongoing chip) and redesigned the media pill style to look similar to OneUI.
 * Dynamic bar extended media player now follows the QS media seekbar style.
@@ -63,7 +132,7 @@
 
 ---
 
-## 🗑️ Removed
+### 🗑️ Removed
 
 * ❌ Removed Viper4Android (caused 100% CPU usage).
 * ❌ Removed Xiaomi touch commit from duchamp (was added previously but wasn't working).
@@ -73,7 +142,7 @@
 
 ---
 
-## 🐞 Fixes
+### 🐞 Fixes
 
 * 🐛 Fixed `android.hardware.audio.service` using 100% of the prime core (which drained battery and caused heating).
 * 🐛 Fixed statsD unnecessary CPU usage.
@@ -91,8 +160,6 @@
 
 ---
 ---
-
-# 📜 Previous Releases
 
 ## 🚀 Lunaris AOSP v3.8 (Hotfix) - xaga
 📅 **March 23, 2026**
