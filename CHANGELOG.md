@@ -1,3 +1,111 @@
+# 🚀 Lunaris AOSP v3.10 (Hotfix) - xaga
+
+
+
+📅 **May 10, 2026**
+
+
+
+---
+
+
+
+## ✨ Highlights
+
+
+
+* 🛡️ **Security & Integrity:** Switched to the **Tricky Store** implementation for better integrity and app compatibility.
+
+* 🚀 **Boot Performance:** Significantly reduced high CPU usage during the boot process, leading to faster load times and less heat after a reboot.
+
+* 🛠️ **Stability Fixes:** Resolved critical issues with system-wide blur, screen flickering in freeform mode, and AOD fingerprint visibility.
+
+
+
+---
+
+
+
+## ⚡ Improvements
+
+
+
+* **Dynamic Bar:** Further under-the-hood optimizations for better responsiveness.
+
+* **Sandbox:** Performance optimizations for the system sandbox.
+
+* **Charging Info:** Improved keyguard charging info accuracy and layout.
+
+* **Visuals:** Optimized wallpaper zoom transitions for a smoother UI feel.
+
+
+
+---
+
+
+
+## ➕ Added & Features
+
+
+
+* 📱 **Launcher:** Added back the option to **Hide Apps** directly from the launcher.
+
+* 🕒 **Clocks:** Added 2 new clock styles featuring a colon ( : ) separator.
+
+
+
+---
+
+
+
+## 🔄 System Changes
+
+
+
+* Switched to **Tricky Store** implementation.
+
+* Reduced system load immediately following a reboot.
+
+
+
+---
+
+
+
+## 🗑️ Removed
+
+
+
+* ❌ Dropped the broken screen-off AOD animation.
+
+
+
+---
+
+
+
+## 🐞 Fixes
+
+
+
+* 🐛 **Fixed system-wide blur** not working in various UI elements.
+
+* 🐛 Fixed **iOS8 clock size** issues.
+
+* 🐛 Resolved **Depth Clock unlock delay** for a faster wake-up experience.
+
+* 🐛 Fixed screen flicker when exiting **freeform mode**.
+
+* 🐛 Fixed **Fingerprint (FP) icon** not showing up on the Always-On Display (AOD).
+
+* 🐛 Fixed high CPU usage and slow loading during the boot process.
+
+
+
+---
+
+---
+
 # 🚀 Lunaris AOSP v3.10 - xaga
 
 📅 **May 6, 2026**
