@@ -1,118 +1,111 @@
-# 🚀 Lunaris AOSP v3.10 (Hotfix) - xaga
+# 🚀 Lunaris AOSP Changelogs - xaga
 
+## 🚀 Lunaris AOSP v3.10 (Hotfix 1.2) - xaga
 
+📅 **May 20, 2026**
+
+---
+
+### ✨ Highlights
+
+* 🎨 **Clock Engine Upgrades:** Added new clock styles, updated layout sizes, introduced an option to browse all available clocks, and added **Skydrove** color customization.
+* ⚙️ **Interface & Controls:** Introduced an initial **Split QS** (Quick Settings) option and a new gesture for status bar brightness control.
+* 🛠️ **Performance & Stability:** Resolved performance drops associated with the OneUI app drawer style and fixed a critical app lock notification issue.
+
+---
+
+### ⚡ Improvements
+
+* **Clocks:** Updated and refined specific custom clock sizes for better visual alignment.
+* **Launcher3:** Implemented the L3 popup unlock animation for a smoother device wake experience.
+
+---
+
+### ➕ Added & Features
+
+* ⚙️ **Status Bar:** Added status bar brightness control functionality.
+* 📶 **Quick Settings:** Introduced an initial **Split QS** option.
+* 🧠 **Idle Manager:** Added a new preference to trigger the Idle Manager *only* when Sleep Mode is turned on.
+* 🔋 **System Visuals:** Enabled the power button Gemini animation.
+
+#### 🎨 Customization
+
+* **Clocks:** Added an option to browse all available clock styles in the selection menu.
+* **Colors:** Implemented **Skydrove** color customization for clock styles.
+* **Clocks:** Integrated several new clock faces into the collection.
+
+---
+
+### 🐞 Fixes
+
+* 🐛 **Launcher:** Fixed performance issues and sluggishness when using the OneUI app drawer style.
+* 🐛 **System:** Fixed an issue where app lock notifications were not behaving or hiding correctly.
+
+---
+---
+
+## 🚀 Lunaris AOSP v3.10 (Hotfix) - xaga
 
 📅 **May 10, 2026**
 
-
-
 ---
 
-
-
-## ✨ Highlights
-
-
+### ✨ Highlights
 
 * 🛡️ **Security & Integrity:** Switched to the **Tricky Store** implementation for better integrity and app compatibility.
-
 * 🚀 **Boot Performance:** Significantly reduced high CPU usage during the boot process, leading to faster load times and less heat after a reboot.
-
 * 🛠️ **Stability Fixes:** Resolved critical issues with system-wide blur, screen flickering in freeform mode, and AOD fingerprint visibility.
 
-
-
 ---
 
-
-
-## ⚡ Improvements
-
-
+### ⚡ Improvements
 
 * **Dynamic Bar:** Further under-the-hood optimizations for better responsiveness.
-
 * **Sandbox:** Performance optimizations for the system sandbox.
-
 * **Charging Info:** Improved keyguard charging info accuracy and layout.
-
 * **Visuals:** Optimized wallpaper zoom transitions for a smoother UI feel.
 
-
-
 ---
 
-
-
-## ➕ Added & Features
-
-
+### ➕ Added & Features
 
 * 📱 **Launcher:** Added back the option to **Hide Apps** directly from the launcher.
-
 * 🕒 **Clocks:** Added 2 new clock styles featuring a colon ( : ) separator.
 
-
-
 ---
 
-
-
-## 🔄 System Changes
-
-
+### 🔄 System Changes
 
 * Switched to **Tricky Store** implementation.
-
 * Reduced system load immediately following a reboot.
-
-
 
 ---
 
-
-
-## 🗑️ Removed
-
-
+### 🗑️ Removed
 
 * ❌ Dropped the broken screen-off AOD animation.
 
-
-
 ---
 
-
-
-## 🐞 Fixes
-
-
+### 🐞 Fixes
 
 * 🐛 **Fixed system-wide blur** not working in various UI elements.
-
 * 🐛 Fixed **iOS8 clock size** issues.
-
 * 🐛 Resolved **Depth Clock unlock delay** for a faster wake-up experience.
-
 * 🐛 Fixed screen flicker when exiting **freeform mode**.
-
 * 🐛 Fixed **Fingerprint (FP) icon** not showing up on the Always-On Display (AOD).
-
 * 🐛 Fixed high CPU usage and slow loading during the boot process.
 
-
-
+---
 ---
 
----
-
-# 🚀 Lunaris AOSP v3.10 - xaga
+## 🚀 Lunaris AOSP v3.10 - xaga
 
 📅 **May 6, 2026**
 
 ---
 
-## ✨ Highlights
+### ✨ Highlights
 
 * 🔄 **Dynamic Bar Refinements:** Redesigned the lockscreen extended media panel, aligned seekbar timestamps inline with the progress bar, and significantly improved the extended media blur visuals.
 * 🎮 **Gaming Enhancements:** Switched to the Axion GameSpace UI and introduced a new toggle for auto-detecting apps within GameSpace.
@@ -120,7 +113,7 @@
 
 ---
 
-## ⚡ Improvements
+### ⚡ Improvements
 
 * Reduced app-to-home animation duration for a snappier launcher experience.
 * Reduced redundant `applyBlur` calls, improving rendering efficiency.
@@ -131,7 +124,7 @@
 
 ---
 
-## ➕ Added & Features
+### ➕ Added & Features
 
 * 🔦 **Added working torch intensity control.**
 * Introduced the QS panel media & slider widget.
@@ -139,7 +132,7 @@
 * Added a brief AOD timer.
 * Added system sandbox support.
 
-### 🎨 Customization
+#### 🎨 Customization
 
 * **Clocks:** Added the Neumatic clock style and 13 additional random clock styles.
 * **Media & QS:** Allowed changing the QS media player position and added animation styles for QS tile toggles.
@@ -148,7 +141,7 @@
 
 ---
 
-## 🔄 System Changes
+### 🔄 System Changes
 
 * Switched fully to the Axion GameSpace UI.
 * Changed the SmartPixel implementation.
@@ -156,14 +149,14 @@
 
 ---
 
-## 🗑️ Removed
+### 🗑️ Removed
 
 * ❌ Removed certain dynamic bar changes (like notification and cust).
 * ❌ Dropped MSDL feedback from fingerprint authentication.
 
 ---
 
-## 🐞 Fixes
+### 🐞 Fixes
 
 * 🐛 Fixed the pulse effect showing above the UDFPS icon.
 * 🐛 Fixed Depth wallpaper showing above the extended dynamic bar panel.
