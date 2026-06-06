@@ -1,5 +1,73 @@
 # 🚀 Lunaris AOSP Changelogs - xaga
 
+## 🚀 Lunaris AOSP v3.11 - xaga
+
+📅 **June 7, 2026**
+
+---
+
+### ✨ Highlights
+
+* 📶 **Split QS:** Improved pulldown animation, added left/right swipe gestures, and introduced directional swipe controls (WIP).
+* 🕒 **Clock Engine:** Reworked custom clocks with 15 new styles, weather support, and refined weather/date text alignment and coloring.
+* 🎨 **Monet & Customization:** Advanced Monet customisation, LC info widget color/opacity controls, and album art color override for lockscreen clock.
+* 🎮 **Recents & Launcher:** Custom recents animations, task corner radius setting, notification badge counts, and adaptive icon pack shape support.
+* 🔊 **Audio:** Added Dolby Atmos support.
+
+---
+
+### ⚡ Improvements
+
+* **System:** Merged new Lineage changes.
+* **Dynamic Bar:** Updated color tokens, aligned expanded cards to top center, and improved extended media text color in light mode.
+* **Quick Settings:** Replaced Quickspace OOS clock color polling with static split color; added haptics to QS widget sliders.
+* **Clocks:** Moved weather text next to clock date on most custom clocks; matched weather text styling with clock date.
+* **Lockscreen:** Improved bouncer fallback color; replaced white flash on screen wakeup in light mode with proper scrim.
+* **Launcher:** Improved app-to-home animation; updated launcher random messages.
+* **Recents:** Improved custom recents animations.
+* **Notifications:** Improved essential notifications.
+* **Status Bar:** Fixed Wi-Fi and signal icon sizing.
+* **Haptics:** Replaced MSDL haptics with native haptic feedback on tiles.
+* **UI:** Enabled Material 3 for document UI (file manager).
+
+---
+
+### ➕ Added & Features
+
+* 📶 **Quick Settings:** Implemented vertical brightness slider expanding.
+* 📶 **Split QS:** Added left/right swipe gestures; directional swipe for split QS (WIP).
+* 🕒 **Clocks:** Added 15 new clock styles with weather support; album art color override for lockscreen clock.
+* 🎨 **Customization:** Color customisation and opacity control for LC info widget; center alignment option for LC compact notification icons; advanced Monet customisation.
+* 📸 **System:** Added partial screenshot action.
+* 🌙 **AOD:** Added back peek AOD.
+* 📱 **Recents:** Added recents task corner radius setting; notification badge counts; adaptive gesture pill window controls for freeform.
+* 🎨 **Icons:** Respect adaptive icon pack shapes.
+* 🖼️ **Wallpapers:** Live wallpapers optional with flag (enabled by default).
+* 📷 **Apps:** Google Photos optional with flag (enabled by default).
+* 🔊 **Audio:** Added Dolby Atmos.
+
+---
+
+### 🔄 System Changes
+
+* Temporarily disabled split notification shade when Split QS is on in landscape.
+
+---
+
+### 🐞 Fixes
+
+* 🐛 **Dynamic Bar:** Fixed collapse event; fixed extended media text color in light mode.
+* 🐛 **Quick Settings:** Fixed volume slider fill not hiding at zero volume; fixed slider widget inner corner radius when set rounded; fixed QS media position reset issue in QQS and QS.
+* 🐛 **Clocks:** Fixed custom clock weather text not following clock color; fixed clock scale overflowing layout.
+* 🐛 **Haptics:** Fixed always-on haptics mode triggering visual pulse.
+* 🐛 **Gestures:** Fixed shake gesture ringer mode not working.
+* 🐛 **Status Bar:** Fixed battery percentage color when status bar tint is on.
+* 🐛 **Media:** Removed progress bar from media chip.
+* 🐛 **Security:** App lock and sandbox fixes.
+
+---
+---
+
 ## 🚀 Lunaris AOSP v3.10 (Hotfix 1.2) - xaga
 
 📅 **May 20, 2026**
