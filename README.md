@@ -123,7 +123,6 @@ Whether you're a gamer, power user or someone who just wants a beautiful ROM, Lu
 </p>
 
 <p align="center">
-  <img src="screenshots/settings.jpg" width="230">
   <img src="screenshots/lockscreen_customization.jpg" width="230">
   <img src="screenshots/lockscreen2.jpg" width="230">
 </p>
