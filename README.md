@@ -128,25 +128,49 @@ Whether you're a gamer, power user or someone who just wants a beautiful ROM, Lu
 </p>
 
 ---
-
 # 📥 Installation
 
 ### Requirements
 
 - Unlocked Bootloader
-- Latest HyperOS Firmware
-- Platform Tools
+- Windows PC
+- USB Cable
+- Latest Platform Drivers
+
+---
 
 ### Installation Steps
 
-1. Flash the latest firmware.
-2. Reboot into recovery.
-3. Format Data.
-4. Flash Lunaris AOSP.
-5. Reboot.
-6. Enjoy!
+1. **Extract** the **Lunaris v3.12 ZIP** to a folder on your PC.
+2. **Boot** your **Redmi K50i / POCO X4 GT** into **Fastboot Mode**.
+3. **Connect** your device to the PC using a USB cable.
+4. Open the extracted folder and **double-click** `Install_Lunaris.bat`.
+5. When prompted, type **`1`** and press **Enter** to start the installer.
+6. Choose whether to **Format Data**:
+   - **Y** = Wipe Data *(Recommended for a clean installation)*
+   - **N** = Keep existing data *(Not recommended when coming from another ROM)*
+7. Choose your **Root** option:
+   - **1** = Flash without Root
+   - **2** = Flash with Root (Magisk)
+8. Sit back and relax! The installer will automatically:
+   - Flash all required partitions
+   - Install Lunaris AOSP
+   - Reboot your device when finished
+
+> [!IMPORTANT]
+> **Do not disconnect the USB cable or power off your device during the installation process.**
+
+> [!TIP]
+> A **clean flash (Format Data = Y)** is highly recommended when installing Lunaris for the first time or upgrading from a different ROM.
 
 ---
+
+### First Boot
+
+- The first boot may take **2–5 minutes**.
+- Complete the Android setup wizard.
+- Enjoy **Lunaris AOSP v3.12** 🚀
+
 
 # 📜 Changelog
 
