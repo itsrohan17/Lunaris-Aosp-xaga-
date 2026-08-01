@@ -128,55 +128,101 @@ Whether you're a gamer, power user or someone who just wants a beautiful ROM, Lu
 </p>
 
 ---
-# 📥 Installation
+---
 
-For detailed installation instructions, please refer to:
+# 📥 Download
 
-➡️ **[INSTALL.md](INSTALL.md)**
+Download the latest stable release of **Lunaris AOSP** for **Redmi K50i / POCO X4 GT (xaga)**.
 
-The installer supports:
+<p align="center">
 
-- ✅ Clean Flash
-- ✅ Dirty Flash
-- ✅ Optional Data Format
-- ✅ Optional Magisk Root
-- ✅ Automatic Fastboot Flashing
+<a href="https://lunaris-aosp-xaga.vercel.app/index.html">
+<img src="https://img.shields.io/badge/⬇️%20Download-Lunaris%20AOSP%20v3.12-2ea44f?style=for-the-badge">
+</a>
 
+</p>
 
-# 📜 Changelog
+<p align="center">
 
-See the complete changelog here.
+### 🌐 Official Download Center
 
-➡️ **[CHANGELOG.md](CHANGELOG.md)**
+**https://lunaris-aosp-xaga.vercel.app/index.html**
+
+</p>
 
 ---
 
+## 📦 What's Included
+
+- ✅ Lunaris AOSP Fastboot Package
+- ✅ Windows Installer (`win_installation.bat`)
+- ✅ Linux Installer (`linux_installation.sh`)
+- ✅ Boot Images
+- ✅ Required Fastboot Images
+- ✅ Platform Tools
+- ✅ Complete Installation Guide
+
+---
+
+## 📖 Installation Guide
+
+Lunaris ships with an easy-to-use Fastboot installer.
+
+📄 **[INSTALL.md](INSTALL.md)**
+
+The installer supports:
+
+- ✅ Automatic Device Detection
+- ✅ Optional Data Format
+- ✅ Optional Magisk Root
+- ✅ Automatic Fastboot Flashing
+- ✅ Automatic Reboot
+- ✅ Windows & Linux Support
+
+---
+
+# ⭐ Support
+
+If you enjoy using **Lunaris AOSP**, please consider giving this repository a ⭐.
+
+It helps support future development and allows more users to discover the project.
+
+<p align="center">
+
+<a href="https://github.com/itsrohan17/Lunaris-Aosp-xaga">
+<img src="https://img.shields.io/github/stars/itsrohan17/Lunaris-Aosp-xaga?style=for-the-badge&logo=github">
+
+</a>
+
+</p>
+
+---
 # ❤️ Credits
 
-Special thanks to
+Special thanks to the open-source projects and communities that make **Lunaris AOSP** possible.
 
-- Google (AOSP)
-- LineageOS
-- Evolution X
-- PixelOS
-- RisingOS
-- Project Matrixx
-- SuperiorOS
-- DerpFest
-- The Android Open Source Community
+- **Google** – Android Open Source Project (AOSP)
+- **Lunaris OS** – Source Base
+- **XagaForge** – Device Trees, Vendor Trees & Kernel
+- **LineageOS** – Vendor Base & Platform Contributions
+- **crDroid** – UI Improvements & Source Enhancements
+- **DerpFest** – AOSP Features & Customizations
+- **Evolution X** – PixelProps & Feature Contributions
+- **YAAP (Yet Another AOSP Project)** – Open Source Contributions
+- **The Android Open Source Community**
 
 ---
 
 # 👨‍💻 Maintainer
 
 <p align="center">
-  <img src="assets/icon.png" width="120">
+  <img src="assets/icon.png" width="120" alt="Maintainer Icon">
 </p>
 
 <h3 align="center">Rohan</h3>
 
 <p align="center">
-Maintainer of Lunaris AOSP for Redmi K50i / POCO X4 GT (xaga)
+Maintainer of <strong>Lunaris AOSP</strong> for <strong>Redmi K50i / POCO X4 GT (xaga)</strong>
 </p>
 
 <p align="center">
@@ -187,18 +233,15 @@ Maintainer of Lunaris AOSP for Redmi K50i / POCO X4 GT (xaga)
 
 ---
 
-# ⭐ Support
-
-If you enjoy using **Lunaris AOSP**, consider giving this repository a ⭐.
-
-It helps support the project and motivates future development.
-
----
-
 <p align="center">
-<img src="assets/logo.png" width="80">
 
-### 🌙 Lunaris AOSP v3.12
+<img src="assets/logo.png" width="100" alt="Lunaris Logo">
 
-**Pure AOSP • Deep Customization • Smooth Performance • Built with ❤️**
+## 🌙 Lunaris AOSP
+
+**Android 16 • Redmi K50i / POCO X4 GT (xaga)**
+
+Built with ❤️ by **Rohan**
+
 </p>
+
