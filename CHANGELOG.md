@@ -34,7 +34,7 @@
 ---
 
 ### ✨ Highlights
-
+- 🔒 New Fenrir LK 
 - 🎵 System-wide music lyrics with LRCLIB integration.
 - 🌙 Added System Popup Bar.
 - 🎨 Per-app icon customization.
