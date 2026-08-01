@@ -61,7 +61,7 @@
 ---
 
 ### ➕ Added & Features
-
+- Added back viper4x android
 - Backup & Restore in IdleManager.
 - Kill App action in Dynamic Bar.
 - Auto Brightness tile.
