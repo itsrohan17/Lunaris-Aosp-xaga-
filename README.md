@@ -128,7 +128,6 @@ Whether you're a gamer, power user or someone who just wants a beautiful ROM, Lu
 </p>
 
 ---
----
 
 # 📥 Download
 
@@ -163,16 +162,11 @@ Download the latest stable release of **Lunaris AOSP** for **Redmi K50i / POCO X
 - ✅ Complete Installation Guide
 
 ---
----
 
 # 📚 Documentation
 
-- 📥 **[Installation Guide](INSTALL.md)**
 - 📝 **[Changelog](CHANGELOG.md)**
 - ⚖️ **[License](LICENSE)**
-
----
-
 
 ---
 ## 📖 Installation Guide
