@@ -149,8 +149,6 @@ Download the latest stable release of **Lunaris AOSP** for **Redmi K50i / POCO X
 
 </p>
 
----
-
 ## 📦 What's Included
 
 - ✅ Lunaris AOSP Fastboot Package
