@@ -164,27 +164,15 @@ Download the latest stable release of **Lunaris AOSP** for **Redmi K50i / POCO X
 
 ---
 ---
----
 
 # 📚 Documentation
 
-<p align="center">
-
-<a href="./INSTALL.md">
-<img src="https://img.shields.io/badge/📥-Installation_Guide-blue?style=for-the-badge">
-</a>
-
-<a href="./CHANGELOG.md">
-<img src="https://img.shields.io/badge/📝-Changelog-green?style=for-the-badge">
-</a>
-
-<a href="./LICENSE">
-<img src="https://img.shields.io/badge/⚖️-License-orange?style=for-the-badge">
-</a>
-
-</p>
+- 📥 **[Installation Guide](INSTALL.md)**
+- 📝 **[Changelog](CHANGELOG.md)**
+- ⚖️ **[License](LICENSE)**
 
 ---
+
 
 ---
 ## 📖 Installation Guide
