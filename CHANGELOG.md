@@ -49,6 +49,7 @@
 
 ### ⚡ Improvements
 
+- Improved ram management 
 - Improved QS expansion and tile animations.
 - Improved brightness slider animation and haptics.
 - Improved Dynamic Bar animations.
