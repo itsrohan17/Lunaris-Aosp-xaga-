@@ -163,7 +163,27 @@ Download the latest stable release of **Lunaris AOSP** for **Redmi K50i / POCO X
 - ✅ Complete Installation Guide
 
 ---
+---
 
+# 📚 Documentation
+
+<p align="center">
+
+<a href="INSTALL.md">
+<img src="https://img.shields.io/badge/📥_Installation_Guide-blue?style=for-the-badge">
+</a>
+
+<a href="CHANGELOG.md">
+<img src="https://img.shields.io/badge/📝_Changelog-green?style=for-the-badge">
+</a>
+
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/⚖️_License-orange?style=for-the-badge">
+</a>
+
+</p>
+
+---
 ## 📖 Installation Guide
 
 Lunaris ships with an easy-to-use Fastboot installer.
