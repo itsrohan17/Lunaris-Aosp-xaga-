@@ -177,7 +177,7 @@ The installer supports:
 
 - ✅ Automatic Device Detection
 - ✅ Optional Data Format
-- ✅ Optional Magisk Root
+- ✅ Optional kernel su Root
 - ✅ Automatic Fastboot Flashing
 - ✅ Automatic Reboot
 - ✅ Windows & Linux Support
